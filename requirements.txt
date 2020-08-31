@@ -1,0 +1,7 @@
+tensorflow==2.0.0
+plotly
+pandas
+numpy
+seaborn
+matplotlib
+sklearn
