@@ -1,6 +1,6 @@
 # Anomaly-detection-with-Keras
 Build LSTM autoencoder using the Keras API with Tensorflow 2 as the backend to detect anomalies (sudden price changes) in the S&P 500 index
-#### Task 1: Project Overview and Import Libraries
+#### Task 1: Import Libraries
 #### Task 2: Load and Inspect the S&P 500 Index Data
 #### Task 3: Data Preprocessing
 #### Task 4: Temporalize Data and Create Training and Test Splits
