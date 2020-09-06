@@ -16,18 +16,7 @@ Import important libraries like pandas, numpy, matplotlib, plotly, tensorflow an
 ## Task 3: Data Preprocessing
 Split the dataset into 80% for the training set and remaining 20% for the test set.
 ## Task 4: Temporalize Data and Create Training and Test Splits
-The LSTM network takes the input in the form of subsequences of equal intervals of input shape (n_sample,n_timesteps,features).We will use the below custom function to create these sequences:
-
-```
-def create_sequences(X, y, time_steps=1):
-    Xs, ys = [], []
-    for i in range(len(X) - time_steps):
-        v = X.iloc[i:(i + time_steps)].values
-        Xs.append(v)        
-        ys.append(y.iloc[i + time_steps])
-    return np.array(Xs), np.array(ys)
-```
-
+The LSTM network takes the input in the form of subsequences of equal intervals of input shape (n_sample,n_timesteps,features).
 ## Task 5: Build an LSTM Autoencoder
 Model Summary :
 
