@@ -1,5 +1,5 @@
 # Time Series Anomaly Detection
-**Aim:** Detecting Anomalies (suddden change) in the S&P 500 index using Tensorflow 2 Keras API with LSTM Autoencoder model.
+**Aim:** Detecting Anomalies in the S&P 500 index using Tensorflow 2 Keras API with LSTM Autoencoder model.
 
 **Conclusion:** Sucessfully detected anomalies on the test set
 ## Task 1: Import Libraries
