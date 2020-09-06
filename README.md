@@ -3,6 +3,7 @@
 
 **Conclusion:** Anomaly detection is about identifying outliers in a time series data using mathematical models, correlating it with various influencing factors and delivering insights to business decision makers. Using anomaly detection across multiple variables and correlating it among them has significant benefits for any business. 
 
+*Read this article to understand more on how [anomaly detection can help buinesses.](https://www.itproportal.com/features/five-reasons-why-anomaly-detection-is-important-for-your-ecommerce-business/)*
 ## Task 1: Import Libraries
 Import important libraries like pandas, numpy, matplotlib, plotly, tensorflow and sklearn.
 ## Task 2: Load and Inspect the S&P 500 Index Data
