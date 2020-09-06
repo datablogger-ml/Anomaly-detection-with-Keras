@@ -1,7 +1,8 @@
 # Time Series Anomaly Detection
 **Aim:** Detecting Anomalies in the S&P 500 index using Tensorflow 2 Keras API with LSTM Autoencoder model.
 
-**Conclusion:** Sucessfully detected anomalies on the test set
+**Conclusion:** Anomaly detection is about identifying outliers in a time series data using mathematical models, correlating it with various influencing factors and delivering insights to business decision makers. Using anomaly detection across multiple variables and correlating it among them has significant potential to increase sales and margins for any business. 
+
 ## Task 1: Import Libraries
 Import important libraries like pandas, numpy, matplotlib, plotly, tensorflow and sklearn.
 ## Task 2: Load and Inspect the S&P 500 Index Data
