@@ -13,4 +13,5 @@ Build LSTM autoencoder using the Keras API with Tensorflow 2 as the backend to d
 #### Task 5: Build an LSTM Autoencoder
 #### Task 6: Train the Autoencoder
 #### Task 7: Plot Metrics and Evaluate the Model
+![Loss vs Epochs](https://raw.githubusercontent.com/datablogger-ml/Anomaly-detection-with-Keras/master/Anomaly%20Detection%20Images/Training_loss.png)
 #### Task 8: Detect Anomalies in the S&P 500 Index Data
