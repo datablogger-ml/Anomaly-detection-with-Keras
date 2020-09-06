@@ -3,6 +3,8 @@ Build LSTM autoencoder using the Keras API with Tensorflow 2 as the backend to d
 #### Task 1: Import Libraries
 #### Task 2: Load and Inspect the S&P 500 Index Data
 
+Range: 1986->2018
+
 ![S$P Data](https://raw.githubusercontent.com/datablogger-ml/Anomaly-detection-with-Keras/master/Anomaly%20Detection%20Images/Data.png)
 
 #### Task 3: Data Preprocessing
