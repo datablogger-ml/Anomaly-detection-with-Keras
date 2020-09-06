@@ -14,6 +14,7 @@ Import important libraries like pandas, numpy, matplotlib, plotly, tensorflow an
 ![S$P Data](https://raw.githubusercontent.com/datablogger-ml/Anomaly-detection-with-Keras/master/Anomaly%20Detection%20Images/Data.png)
 
 ## Task 3: Data Preprocessing
+Split the dataset into 80% for the training set and remaining 20% for the test set.
 ## Task 4: Temporalize Data and Create Training and Test Splits
 ## Task 5: Build an LSTM Autoencoder
 Model Summary :
