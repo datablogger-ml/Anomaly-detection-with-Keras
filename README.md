@@ -16,6 +16,24 @@ Import important libraries like pandas, numpy, matplotlib, plotly, tensorflow an
 ## Task 3: Data Preprocessing
 ## Task 4: Temporalize Data and Create Training and Test Splits
 ## Task 5: Build an LSTM Autoencoder
+Model Summary :
+
+Layer(type)  | Output Shape | # Param
+------------ | -------------| --------
+lstm (LSTM) | (None, 128) | 66560
+dropout (Dropout) | (None, 128) | 0
+repeat_vector (RepeatVector) | (None, 30, 128) | 0
+lstm_1 (LSTM) | (None, 30, 128) | 131584
+dropout_1 (Dropout) | (None, 30, 128) | 0
+time_distributed (TimeDistributed) | (None, 30, 1) | 129
+
+Total params: 198,273
+
+Trainable params: 198,273
+
+Non-trainable params: 0
+
+
 ## Task 6: Train the Autoencoder
 ## Task 7: Plot Metrics and Evaluate the Model
 The metrics are saved inside the model variable, we can plot the training and validation loss wrt number of Epochs.
