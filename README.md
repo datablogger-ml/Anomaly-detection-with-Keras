@@ -31,11 +31,11 @@ Anomaly detection is about identifying outliers in a time series data using math
 
 #### 2. LSTM
 
-* <strong>WordCloud</strong> - 
+* <strong></strong> - 
 
-* <strong>Topic Modelling</strong> - 
+* <strong></strong> - 
 
-* <strong>Sentiment Analysis</strong> - 
+* <strong></strong> - 
 
 #### 3. AutoEncoder
 
