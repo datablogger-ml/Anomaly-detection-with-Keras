@@ -39,21 +39,22 @@ Anomaly detection is about identifying outliers in a time series data using math
 
 #### 3. AutoEncoder
 
+## Getting Started
 
-## Import Libraries
+### Import Libraries
 Import important libraries like pandas, numpy, matplotlib, plotly, tensorflow and sklearn.
-## Load and Inspect the S&P 500 Index Data
+### Load and Inspect the S&P 500 Index Data
 
 1. Range: 1986->2018
 2. Frequency: 'D'- Mon->Fri
 
 ![S$P Data](https://raw.githubusercontent.com/datablogger-ml/Anomaly-detection-with-Keras/master/Anomaly%20Detection%20Images/Data.png)
 
-## Data Preprocessing
+### Data Preprocessing
 Split the dataset into 80% for the training set and remaining 20% for the test set.
-## Temporalize Data and Create Training and Test Splits
+### Temporalize Data and Create Training and Test Splits
 The LSTM network takes the input in the form of subsequences of equal intervals of input shape (n_sample,n_timesteps,features).
-## Build an LSTM Autoencoder
+### Build an LSTM Autoencoder
 Model Summary :
 
 Layer(type)  | Output Shape | # Param
@@ -72,15 +73,15 @@ Trainable params: 198,273
 Non-trainable params: 0
 
 
-## Train the Autoencoder
-## Plot Metrics and Evaluate the Model
+### Train the Autoencoder
+### Plot Metrics and Evaluate the Model
 The metrics are saved inside the model variable, we can plot the training and validation loss wrt number of Epochs.
 ![Loss vs Epochs](https://raw.githubusercontent.com/datablogger-ml/Anomaly-detection-with-Keras/master/Anomaly%20Detection%20Images/Training_loss.png)
 
 We have underfit the model as our val_loss<loss, we can change the parameters for a better fit.
 ![Training Loss](https://raw.githubusercontent.com/datablogger-ml/Anomaly-detection-with-Keras/master/Anomaly%20Detection%20Images/TrainingDIst.png)
 With the help of the distribution plot of the training loss, we can observe that very few observations have an error > 0.65. If we set threshold = 0.65, any error > 0.65 on the test loss will be considered as an anomaly.
-## Detect Anomalies in the S&P 500 Index Data
+### Detect Anomalies in the S&P 500 Index Data
 
 Plotting our threshold line at 0.65, all the loss values above it are anomalies
 
