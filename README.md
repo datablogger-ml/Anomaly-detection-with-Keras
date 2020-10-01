@@ -29,15 +29,22 @@ Anomaly detection is about identifying outliers in a time series data using math
 
 *Read this article to understand more on how [anomaly detection can help buinesses.](https://www.itproportal.com/features/five-reasons-why-anomaly-detection-is-important-for-your-ecommerce-business/)*
 
-#### 2. LSTM
+#### 2. LSTM Autoencoder
 
-* <strong></strong> - 
+* <strong>What are Autoencoders ?</strong> - An autoencoder is a neural network model that seeks to learn a compressed representation of an input. They are a self-supervised learning method that attempts to recreate the input.
 
-* <strong></strong> - 
+* <strong>LSTM</strong> - Recurrent Neural Networks, such as the LSTM, are specifically designed to support sequences of input data.
+They are capable of learning the complex dynamics within the temporal ordering of input sequences as well as use an internal memory to remember or use information across long input sequences.
 
-* <strong></strong> - 
+* <strong>Encoder-Decoder</strong> - The LSTM network can be organized into an architecture called the Encoder-Decoder LSTM that allows the model to be used to both support variable length input sequences and to predict or output variable length output sequences.
+In this architecture, an encoder LSTM model reads the input sequence step-by-step. After reading in the entire input sequence, the hidden state or output of this model represents an internal learned representation of the entire input sequence as a fixed-length vector. This vector is then provided as an input to the decoder model that interprets it as each step in the output sequence is generated.
 
-#### 3. AutoEncoder
+* <strong>LSTM Autoencoder</strong> - For a given dataset of sequences, an encoder-decoder LSTM is configured to read the input sequence, encode it, decode it, and recreate it. The performance of the model is evaluated based on the model’s ability to recreate the input sequence.
+Once the model achieves a desired level of performance recreating the sequence, the decoder part of the model may be removed, leaving just the encoder model. This model can then be used to encode input sequences to a fixed-length vector.
+
+
+
+#### 3. 
 
 ## Getting Started
 
