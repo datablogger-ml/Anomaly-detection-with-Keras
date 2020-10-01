@@ -24,12 +24,29 @@ Detecting Anomalies in the S&P 500 index using Tensorflow 2 Keras API with LSTM 
 
 ### Methods
 
-#### 1. Anamoly Detection
+#### 1. Time Series Analysis
+It is a statistical technique that deals with time series data, or trend analysis.
+Time series data means that data is in a series of  particular time periods or intervals.
+Data points may have an internal structure (autocorrelation, trend or seasonality).
+Time Series Analysis is used for many applications such as : 
+* Economic Forecasting
+* Sales Forecasting
+* Budgetary Analysis
+* Stock Market Analysis
+* Yield Projections
+* Process and Quality Control
+* Inventory Studies
+* Workload Projections
+* Utility Studies
+* Census Analysis
+
+
+#### 2. Anamoly Detection
 Anomaly detection is about identifying outliers in a time series data using mathematical models, correlating it with various influencing factors and delivering insights to business decision makers. Using anomaly detection across multiple variables and correlating it among them has significant benefits for any business. 
 
 *Read this article to understand more on how [anomaly detection can help buinesses.](https://www.itproportal.com/features/five-reasons-why-anomaly-detection-is-important-for-your-ecommerce-business/)*
 
-#### 2. LSTM Autoencoder
+#### 3. LSTM Autoencoder
 
 * <strong>What are Autoencoders ?</strong> - An autoencoder is a neural network model that seeks to learn a compressed representation of an input. They are a self-supervised learning method that attempts to recreate the input.
 
@@ -42,9 +59,6 @@ In this architecture, an encoder LSTM model reads the input sequence step-by-ste
 * <strong>LSTM Autoencoder</strong> - For a given dataset of sequences, an encoder-decoder LSTM is configured to read the input sequence, encode it, decode it, and recreate it. The performance of the model is evaluated based on the model’s ability to recreate the input sequence.
 Once the model achieves a desired level of performance recreating the sequence, the decoder part of the model may be removed, leaving just the encoder model. This model can then be used to encode input sequences to a fixed-length vector.
 
-
-
-#### 3. 
 
 ## Getting Started
 
