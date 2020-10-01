@@ -90,3 +90,7 @@ Plotting our threshold line at 0.65, all the loss values above it are anomalies
 Depicting the anomalies with :red_circle: 
 
 ![S&P500 Anomalies](https://raw.githubusercontent.com/datablogger-ml/Anomaly-detection-with-Keras/master/Anomaly%20Detection%20Images/S%26P500_anomalies.png)
+
+## Featured Notebooks/Analysis/Deliverables
+* [requirements.txt](https://raw.githubusercontent.com/datablogger-ml/twitter-analytics/master/requirements.txt)
+* [LSTM Autoencoder](https://machinelearningmastery.com/lstm-autoencoders/)
